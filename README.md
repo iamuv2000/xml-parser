@@ -9,11 +9,15 @@ collection into a mongoDB Database.
 xml2js
 ```
 
-## Use of docker
+# Database screenshot
+<img src = "./assets/db.png" > </img>
+
+
+# Use of docker
 A mongo docker container has been used to ease the use of the database locally.
 
-## Running the program
-Run 
+# Running the program
+ 
 ``` 
 docker-compose up --build
 ```
