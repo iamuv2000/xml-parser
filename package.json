@@ -1,0 +1,19 @@
+{
+  "name": "xml-paser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "joi": "^14.3.1",
+    "mongoose": "^5.9.17",
+    "validator": "^13.0.0",
+    "xml2js": "^0.4.23",
+    "xml2json": "^0.12.0"
+  }
+}

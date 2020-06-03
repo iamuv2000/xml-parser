@@ -1,0 +1,9 @@
+version: "3"
+services: 
+  mymongo:  #name of the container
+    image: "mongo" #image is pulled
+    ports:
+      - "27017:27017"
+
+  mynode: #name of the container
+    build: . #build from Dockerfile in the directory '.' #<localhost_post>:<docker_port>
